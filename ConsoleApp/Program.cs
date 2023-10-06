@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.Write("Enter your name: ");
+﻿Console.Write("Enter your name: ");
 var name = Console.ReadLine();
 if (String.IsNullOrWhiteSpace(name))
 {
