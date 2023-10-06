@@ -1,8 +1,12 @@
-﻿Console.Write("Enter your name: ");
+﻿using StringClasslib.Utilities;
+
+
+
+Console.Write("Enter your name: ");
 var name = Console.ReadLine();
-if (String.IsNullOrWhiteSpace(name))
+if (String.IsNullOrWhiteSpace(name) || !StringOperations.StartsWithUpper(name))
 {
-  Console.WriteLine("No name provided, program exit...");
+  Console.WriteLine("Invalid name provided, program exit...");
   Environment.Exit(0);
 }
 
