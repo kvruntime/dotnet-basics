@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>StringClasslib-4ed393d4-6b38-4af6-b2d4-6d2ad66add1e</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>kvruntime</Authors>
+    <Company>kvruntime sarl</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
 </Project>
